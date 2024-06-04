@@ -1,0 +1,36 @@
+body {
+  background-color: #e2e1e1;
+}
+.box {
+  position: relative;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+body div h2:first-of-type {
+  position: relative;
+  top: 2rem;
+  height: 1.375rem;
+  color: #959393;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+}
+h1 {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 8rem;
+}
+body div h2:last-of-type {
+  height: 1.375rem;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  color: #373636;
+}
+.star {
+  position: absolute;
+  top: 5rem;
+  right: -0.1rem;
+}

@@ -1,0 +1,89 @@
+body {
+  background-color: #131417;
+}
+.container {
+  position: relative;
+  margin: auto;
+  width: 675px;
+  height: 355px;
+  top: 106px;
+  left: 66px;
+  border-radius: 12px;
+  background-color: rgba(34, 34, 37, 0.7);
+  text-align: left;
+}
+.textButton {
+  position: absolute;
+  display: inline-block;
+  width: 531px;
+  height: 224px;
+  top: 65px;
+  left: 72px;
+}
+h1 {
+  text-align: left;
+  width: 33.18rem;
+  height: 6rem;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.026rem;
+  color: rgba(255, 255, 255, 1);
+}
+h3 {
+  width: 525px;
+  height: 52px;
+  margin: 17px 0;
+  font-size: 15px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 1);
+}
+.button {
+  padding: 8px 16px;
+  display: inline;
+  border: 2px solid rgba(241, 121, 101, 1);
+  gap: 8px;
+  border-radius: 12px;
+  width: 144px;
+  height: 42px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -5%;
+}
+a {
+  text-decoration: none;
+  color: rgba(241, 121, 101, 1);
+}
+
+img {
+  position: absolute;
+}
+.megaphone {
+  width: 195px;
+  height: 195px;
+  top: -76.86px;
+  left: -55px;
+}
+.ellipse2 {
+  z-index: 1;
+  width: 114px;
+  height: 114px;
+  right: -23px;
+  bottom: -41px;
+}
+
+.ellipse1 {
+  z-index: 2;
+  width: 62px;
+  height: 62px;
+  right: -23px;
+  bottom: 33px;
+}
+.star {
+  z-index: 3;
+  width: 160px;
+  height: 167px;
+  right: -39px;
+  bottom: -16px;
+}

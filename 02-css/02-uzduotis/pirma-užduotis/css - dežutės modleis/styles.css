@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(180, 162, 162);
+}
+div {
+  background-color: rgb(5, 150, 61);
+  max-width: 80%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin: 5em auto;
+}
+#pirmasID {
+  border: 12px solid black;
+  box-shadow: 5px 5px 15px black;
+}
+#antrasID {
+  padding: 5em;
+  border-radius: 150px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+#treciasID {
+  padding: 5em 0;
+  border-bottom: 10px solid black;
+  border-right: 15px dashed red;
+}
+#ketvirtasID {
+  padding: 0 5em 1em;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+#penktasID {
+  padding: 0;
+  padding-bottom: 5em;
+  border-left: 10px dashed black;
+}
+#sestasID li {
+  display: inline-block;
+}
+#septintasID form {
+  background-color: brown;
+  width: 500px;
+  padding: 1em;
+}
+#septintasID input {
+  display: block;
+}
+#astuntasID p,
+#astuntasID a {
+  font-size: 2em;
+}
+#astuntasID mark:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+#astuntasID a:hover {
+  position: relative;
+  left: 20px;
+}

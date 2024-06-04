@@ -1,0 +1,82 @@
+body {
+  width: 527px;
+  height: 1326px;
+  top: -717px;
+  left: -623px;
+  background-color: #e2e1e1;
+}
+.card {
+  position: relative;
+  margin: auto;
+  width: 276px;
+  height: 345px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px 0px #60617029;
+  overflow: hidden;
+}
+.top {
+  height: 208px;
+}
+img {
+  width: 100%;
+  height: 176px;
+  object-fit: cover;
+  margin-bottom: 32px;
+}
+.date {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 148px;
+  left: 204px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 4px 0px #60617029;
+}
+.day {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  top: 5.8px;
+  left: 13px;
+}
+.month {
+  top: 28.62px;
+  left: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+}
+.content {
+  padding: 0 16px;
+  margin-top: 2em;
+}
+h1,
+p {
+  gap: 4px;
+}
+h1 {
+  width: 250px;
+  height: 48px;
+}
+.bookMark,
+.share {
+  width: 32px;
+  height: 32px;
+  border: 1px;
+  padding: 16px 0;
+  gap: 12px;
+}
+.card1 {
+  top: 30px;
+  margin-bottom: 30px;
+}
+.card2 {
+  top: 30px;
+  margin-bottom: 30px;
+}
+.card3 {
+  top: 30px;
+}
