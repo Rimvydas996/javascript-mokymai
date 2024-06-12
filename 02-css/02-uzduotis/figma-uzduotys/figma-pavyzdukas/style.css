@@ -1,0 +1,48 @@
+.page {
+  position: relative;
+  background-color: #9eb2d5;
+  width: 1920px;
+  height: 1239px;
+}
+div {
+  position: relative;
+  width: 675px;
+  height: 772px;
+  top: 233px;
+  left: 196px;
+}
+div h1,
+div h2 {
+  font-family: "Caveat";
+}
+div h1 {
+  color: #fdfdfd;
+  font-size: 300px;
+  line-height: 300px;
+  font-weight: 700;
+}
+div h2 {
+  color: #192337;
+  font-size: 64px;
+  line-height: 64px;
+}
+div p {
+  color: #192337;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* img {
+  background-image: url(./Rectangle\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.img1 {
+  position: absolute;
+  top: 68px;
+  right: 74px;
+}
+.imgGroup {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
