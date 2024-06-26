@@ -1,0 +1,279 @@
+/* ==========================
+GENERAL STYLES
+=========================== */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+.general-section {
+  padding: 100px 0;
+}
+.general-section .container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.general-section .title-part {
+  text-align: center;
+  margin-bottom: 71px;
+}
+.general-section .title-part h2 {
+  color: #222;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.general-section .title-part .red-row {
+  background-color: #eb5757;
+  width: 31px;
+  height: 5px;
+  margin: 19px auto;
+}
+.general-section .title-part p {
+  font-size: 20px;
+  color: #222;
+  margin: 0;
+}
+/* ==========================
+NAVIGATION
+=========================== */
+nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+}
+nav a {
+  text-decoration: none;
+  color: #222222;
+}
+nav h1 {
+  font-size: 22px;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 63px;
+}
+nav ul .active a:hover {
+  color: #eb5757;
+}
+
+/* ==========================
+HEADER
+=========================== */
+header {
+  height: calc(100vh - 120px);
+  background: url(./images/header.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .content {
+  width: 100%;
+  max-width: 1000px;
+}
+header h1 {
+  font-size: 80px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+header p {
+  font-size: 40px;
+  color: white;
+  margin: 16px 0 43px;
+}
+header .button a {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 15px 66px;
+  display: inline-block;
+}
+header .button .primary-button {
+  color: white;
+  background-color: #eb5757;
+  margin-right: 21px;
+}
+header .button .secondary-button {
+  color: #eb5757;
+  background-color: white;
+}
+/* ==========================
+CITATION
+=========================== */
+.citation {
+  background-color: #eb5757;
+  padding: 39px 0;
+}
+.citation p {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+}
+/* ==========================
+ARTISTS SECTION
+=========================== */
+.artists-section {
+  background-color: #f8f8f8;
+}
+.artists-section .content-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.artists-section .content-part .artists-block {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 28px 40px;
+}
+.artists-section .content-part .artists-block .image img {
+  width: 238px;
+  height: 238px;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+/* ==========================
+GALLERY SECTION
+=========================== */
+.gallery-section {
+  background-color: rgba(235, 87, 87, 0.1);
+}
+.gallery-section .container .content-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-section .container .content-part img {
+  width: 248px;
+  height: 248px;
+  object-fit: cover;
+  margin-right: 24px;
+  margin-bottom: 26px;
+}
+/* ==========================
+TICKET SECTION
+=========================== */
+.ticket-section {
+  background-color: rgba(248, 248, 248, 1);
+}
+.ticket-section .content-part {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 75px;
+}
+.ticket-section .content-part .card {
+  width: 447px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ticket-section .content-part .card h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.83px;
+  margin: 32.47px auto 29.33px;
+}
+.ticket-section .content-part .card .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  margin: auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 27.33px;
+}
+.ticket-section .content-part .card .price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.18px;
+}
+.ticket-section .content-part .card samp {
+  font-size: 26px;
+  line-height: 30.52px;
+  margin-left: 18px;
+  color: rgba(235, 87, 87, 1);
+}
+.ticket-section .content-part a {
+  display: inline-block;
+  color: white;
+  background-color: #eb5757;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+  padding: 11px 63px;
+  margin-bottom: 38.95px;
+}
+/* ==========================
+MAP
+=========================== */
+.map-section {
+  background-color: rgba(235, 87, 87, 0.1);
+}
+.map-section .container .img {
+  display: flex;
+  justify-content: center;
+}
+.map-section .container img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 1175px;
+  height: 100%;
+  max-height: 443px;
+}
+/* ==========================
+FOOTER
+=========================== */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 115px;
+}
+footer ul {
+  display: flex;
+  gap: 62px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+}
