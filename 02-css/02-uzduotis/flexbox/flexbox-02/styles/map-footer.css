@@ -1,0 +1,36 @@
+/* ==========================
+MAP
+=========================== */
+.map-section {
+  background-color: rgba(235, 87, 87, 0.1);
+}
+.map-section .container .img {
+  display: flex;
+  justify-content: center;
+}
+.map-section .container img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 1175px;
+  height: 100%;
+  max-height: 443px;
+}
+/* ==========================
+FOOTER
+=========================== */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 115px;
+}
+footer ul {
+  display: flex;
+  gap: 62px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+}

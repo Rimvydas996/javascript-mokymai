@@ -1,0 +1,81 @@
+/* ==========================
+NAVIGATION
+=========================== */
+nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+}
+/* @media screen and (max-width: 768px) {
+  nav {
+    
+  }
+} */
+nav a {
+  text-decoration: none;
+  color: #222222;
+}
+nav h1 {
+  font-size: 22px;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 63px;
+}
+nav ul .active a:hover {
+  color: #eb5757;
+}
+
+/* ==========================
+  HEADER
+  =========================== */
+header {
+  height: calc(100vh - 120px);
+  background: url(../images/header.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .content {
+  width: 100%;
+  max-width: 1000px;
+}
+header h1 {
+  font-size: 80px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+header p {
+  font-size: 40px;
+  color: white;
+  margin: 16px 0 43px;
+}
+header .button a {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 15px 66px;
+  display: inline-block;
+}
+header .button .primary-button {
+  color: white;
+  background-color: #eb5757;
+  margin-right: 21px;
+}
+header .button .secondary-button {
+  color: #eb5757;
+  background-color: white;
+}

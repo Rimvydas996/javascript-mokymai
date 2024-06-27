@@ -1,0 +1,58 @@
+/* ==========================
+CITATION
+=========================== */
+.citation {
+  background-color: #eb5757;
+  padding: 39px 0;
+}
+.citation p {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+}
+/* ==========================
+  ARTISTS SECTION
+  =========================== */
+.artists-section {
+  background-color: #f8f8f8;
+}
+.artists-section .content-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.artists-section .content-part .artists-block {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 28px 40px;
+}
+.artists-section .content-part .artists-block .image img {
+  width: 238px;
+  height: 238px;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+/* ==========================
+  GALLERY SECTION
+  =========================== */
+.gallery-section {
+  background-color: rgba(235, 87, 87, 0.1);
+}
+.gallery-section .container .content-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-section .container .content-part img {
+  width: 248px;
+  height: 248px;
+  object-fit: cover;
+  margin-right: 24px;
+  margin-bottom: 26px;
+}
