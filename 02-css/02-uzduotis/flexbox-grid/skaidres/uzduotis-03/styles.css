@@ -1,0 +1,27 @@
+body {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "sidebar footer";
+  grid-gap: 1rem;
+}
+body header {
+  grid-area: header;
+  background-color: #f2ecbe;
+}
+body aside {
+  grid-area: sidebar;
+  background-color: #f8c8c1;
+}
+body main {
+  grid-area: main;
+  background-color: #c7f3be;
+}
+body footer {
+  grid-area: footer;
+  background-color: #c0d1f4;
+}

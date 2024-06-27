@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "sideBar main main"
+    "footer footer footer";
+}
+h1 {
+  display: inline-block;
+}
+header {
+  display: flex;
+  display: block;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.header {
+  grid-area: header;
+}
+.sideBar {
+  grid-area: sideBar;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
