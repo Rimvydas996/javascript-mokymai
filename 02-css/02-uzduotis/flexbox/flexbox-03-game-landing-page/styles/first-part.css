@@ -1,0 +1,21 @@
+.first-part {
+  background-image: url(../images/bg\ image\ 1.jpg);
+  background-size: 320px 689px;
+  background-size: cover;
+  background-position: center;
+}
+
+.search img {
+  width: 100vw;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  gap: ;
+}
+main {
+  height: 100vh;
+}
