@@ -1,0 +1,46 @@
+@use "./variables" as *;
+.about-us-bg-color {
+  background-color: $secondary-color;
+}
+.about-us {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 68px;
+  max-width: 1314px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__text-block {
+    width: 585px;
+  }
+
+  &__title {
+    color: $primary-color;
+    font-family: "sigmar one", sans-serif;
+    font-size: 48px;
+    line-height: 57.8px;
+  }
+  &__paragraph {
+    font-family: "manrope", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41, 6px;
+  }
+  &__photo-container {
+    position: relative;
+  }
+  &__group-photo {
+    width: 511px;
+    height: 511px;
+    border-radius: 40px;
+    opacity: 0.8;
+    object-fit: cover;
+  }
+  &__photo-with-angle {
+    position: absolute;
+    top: -350px;
+    right: -320px;
+  }
+}

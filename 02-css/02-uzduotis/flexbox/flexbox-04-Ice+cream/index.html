@@ -22,44 +22,253 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sigmar+One&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="./styles/basic.css" />
-    <link rel="stylesheet" href="./styles/first-block.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Ice+cream</title>
   </head>
   <body>
-    <div class="first-block">
-      <header class="header">
-        <div class="logo-box">
+    <!-- 
+    ==================================================
+    FIRST-BLOCK
+    ==================================================
+    -->
+    <div class="first-block-bg-color">
+      <div class="first-block">
+        <header class="header">
+          <div class="logo-box">
+            <img
+              class="logo-box__logo"
+              src="./images/logo-Ice+cream.svg"
+              alt=""
+            />
+            <p class="logo-box__text">
+              ICE+CREAM<br /><span class="logo-box__text-smal"> & CO</span>
+            </p>
+          </div>
+          <div class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
+          <ul class="menu">
+            <li><a class="menu__link" href="#">Home</a></li>
+            <li><a class="menu__link" href="#">About</a></li>
+            <li><a class="menu__link" href="#">Products</a></li>
+            <li><a class="menu__link" href="#">Blog</a></li>
+            <li><a class="menu__link" href="#">Contact</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <h1 class="content__main-text">
+            Scoop up
+            <span class="content__main-text-yellow">happiness</span> with every
+            bite.
+          </h1>
+          <img class="content__img" src="./images/happy-ice-cream.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- 
+    ==================================================
+   SECOND-BLOCK
+    ==================================================
+    -->
+    <div class="second-block-bg">
+      <div class="second-block">
+        <div class="second-block__h2-container">
+          <h2 class="second-block__h2">Our Ice Creams</h2>
+        </div>
+        <div class="second-block__photo-container">
+          <div class="second-block__photo-column">
+            <img
+              class="second-block__photo-container__brown-ice-cream"
+              src="./images/brown-ice-cream.png"
+              alt=""
+            />
+            <img
+              class="second-block__ice-cream-yellow-background"
+              src="./images/ice-cream-yellow-background.png"
+              alt=""
+            />
+          </div>
+          <div class="second-block__photo-column">
+            <img class="second-block__ice-cream-white-background"
+            src="./images/ice-cream-white-background.png" alt= />
+
+            <img
+              class="second-block__ice-cream-street"
+              src="./images/ice-cream-street.png"
+              alt=""
+            />
+          </div>
+          <div class="second-block__photo-column">
+            <img
+              class="second-block__ice-cream-pink-background"
+              src="./images/ice-cream-pink-background.png"
+              alt=""
+            />
+            <img
+              class="second-block__ice-cream-blond"
+              src="./images/ice-cream-blond.png"
+              alt=""
+            />
+          </div>
           <img
-            class="logo-box__logo"
-            src="./images/logo-Ice+cream.svg"
+            class="second-block__img"
+            src="./images/Blue_ice_cream_on_the_stick_turned_to_the_right_upscaled 1.png"
             alt=""
           />
-          <p class="logo-box__text">
-            ICE+CREAM<br /><span class="logo-box__text-smal"> & CO</span>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    ==================================================
+    PRODUCTS
+    ==================================================
+    -->
+    <div class="products-bg-color">
+      <div class="products">
+        <h2 class="products__title">Our Products</h2>
+        <img
+          class="products__arrow-left products__arrow"
+          src="./images/ProductsVector.svg"
+          alt="arrow left"
+        />
+        <div class="products__card-container">
+          <!-- card 1 -->
+          <div class="products__card ice-creame-card">
+            <img
+              class="ice-creame-card__img"
+              src="./images/ProductsYellowIceCream.png"
+              alt=""
+            />
+            <h3 class="ice-creame-card__title">Vanilla ice cream</h3>
+            <div class="ice-creame-card__dash"></div>
+            <p class="ice-creame-card__description">
+              Creamy, sweet, and classic, it's a timeless favorite.
+            </p>
+            <a class="ice-creame-card__button" href="">READ MORE</a>
+          </div>
+          <!-- card 2 -->
+          <div class="products__card ice-creame-card">
+            <img
+              class="ice-creame-card__img"
+              src="./images//ProductsPurpleIceCream.png"
+              alt=""
+            />
+            <h3 class="ice-creame-card__title">Fruit sorbet</h3>
+            <div class="ice-creame-card__dash"></div>
+            <p class="ice-creame-card__description">
+              Refreshing and tangy, it bursts with natural fruit flavors.
+            </p>
+            <a class="ice-creame-card__button" href="">READ MORE</a>
+          </div>
+          <!-- card 3 -->
+          <div class="products__card ice-creame-card">
+            <img
+              class="ice-creame-card__img"
+              src="./images/ProductsBrownIceCeam.png"
+              alt=""
+            />
+            <h3 class="ice-creame-card__title">Chocolate gelato</h3>
+            <div class="ice-creame-card__dash"></div>
+            <p class="ice-creame-card__description">
+              Rich, indulgent, and oh-so-smooth, a chocoholic's dream.
+            </p>
+            <a class="ice-creame-card__button" href="">READ MORE</a>
+          </div>
+        </div>
+        <img
+          class="products__arrow-right products__arrow"
+          src="./images/ProductsVector.svg"
+          alt="arrow left"
+        />
+      </div>
+    </div>
+    <!-- =========
+    ABOUT US
+         =========  -->
+    <div class="about-us-bg-color">
+      <div class="about-us">
+        <div class="about-us__text-block">
+          <h3 class="about-us__title">About Us</h3>
+          <p class="about-us__paragraph">
+            At ICE+CREAM & CO, we’re on a mission to spread joy by crafting
+            delicious, out-of- this-world ice cream experiences. Our playful
+            cartoon shop is the home of scrumptious flavors, smiling faces, and
+            unending fun!
           </p>
         </div>
-        <div class="burger">
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
+        <div class="about-us__photo-container">
+          <img
+            class="about-us__group-photo"
+            src="./images/about-us-angle-img.jpg"
+            alt=""
+          />
+          <img
+            class="about-us__photo-with-angle"
+            src="./images/about-chocolate_ice_cream_cone_moсkup_upscaled 1.png"
+            alt=""
+          />
         </div>
-        <ul class="menu">
-          <li><a class="menu__link" href="#">Home</a></li>
-          <li><a class="menu__link" href="#">About</a></li>
-          <li><a class="menu__link" href="#">Products</a></li>
-          <li><a class="menu__link" href="#">Blog</a></li>
-          <li><a class="menu__link" href="#">Contact</a></li>
-        </ul>
-      </header>
-      <div class="content">
-        <h1 class="content__main-text">
-          Scoop up
-          <span class="content__main-text-yellow">happiness</span> with every
-          bite.
-        </h1>
-        <img class="content__img" src="./images/happy-ice-cream.png" alt="" />
+      </div>
+    </div>
+    <!-- =========
+     COMENTS
+         ========= -->
+    <div class="comments-bg-color">
+      <div class="comments">
+        <img
+          class="comments__arrow comments__arrow-left"
+          src="./images/ProductsVector.svg"
+          alt=""
+        />
+        <!-- card1 -->
+        <div class="comments__block comments-card">
+          <img
+            class="comments-card__autor-img"
+            src="./images/commnets-1.png"
+            alt=""
+          />
+          <p class="comments-card__comment">
+            The flavors are out of this world! I can’t get enough.
+          </p>
+          <p class="comments-card__autor">Samantha Jones</p>
+        </div>
+        <!-- card2 -->
+        <div class="comments__block comments-card">
+          <img
+            class="comments-card__autor-img"
+            src="./images/comments-2.png"
+            alt=""
+          />
+          <p class="comments-card__comment">
+            My kids love the cartoon atmosphere, and I love the taste.
+          </p>
+          <p class="comments-card__autor">John Thompson</p>
+        </div>
+        <!-- card3 -->
+        <div class="comments__block comments-card">
+          <img
+            class="comments-card__autor-img"
+            src="./images/comments-3.jpg"
+            alt=""
+          />
+          <p class="comments-card__comment">
+            Their chocolate is the best in town!
+          </p>
+          <p class="comments-card__autor">Ava Johnson</p>
+        </div>
+        <img
+          class="comments__arrow comments__arrow-right"
+          src="./images/ProductsVector.svg"
+          alt=""
+        />
       </div>
     </div>
   </body>

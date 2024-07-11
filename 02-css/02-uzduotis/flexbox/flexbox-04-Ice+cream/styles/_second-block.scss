@@ -1,0 +1,28 @@
+.second-block {
+  display: grid;
+  grid-template-columns: auto 1052px auto;
+  grid-template-rows: 1fr auto;
+  align-items: end;
+  &__h2-container {
+    grid-column: 2/3;
+  }
+  &__h2 {
+    font-family: "Sigmar One", sans-serif;
+    font-size: 48px;
+    line-height: 57.6px;
+    margin: 100px auto 60px auto;
+  }
+  &__photo-container {
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+  &__img {
+    position: absolute;
+    left: -422px;
+    bottom: 0;
+  }
+}

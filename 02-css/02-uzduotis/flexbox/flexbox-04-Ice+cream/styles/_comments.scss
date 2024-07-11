@@ -1,0 +1,51 @@
+@use "./variables" as *;
+.comments-bg-color {
+  background-color: $primary-color;
+}
+.comments {
+  box-sizing: border-box;
+  max-width: 1319px;
+  display: flex;
+  justify-content: space-between;
+  padding: 105px 0;
+  margin: auto;
+  gap: 46px;
+
+  &__arrow {
+    margin: 61px;
+  }
+
+  &__arrow-left {
+    transform: rotate(180deg);
+  }
+}
+.comments-card {
+  width: 320px;
+  background-color: rgba(26, 84, 152, 1);
+  border-radius: 20px;
+  padding: 40px;
+
+  &__autor-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  &__comment {
+    color: $color-in-dark-background;
+    font-family: "manrope", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    max-width: 237px;
+    min-height: 189px;
+    margin: auto;
+    margin-top: 39px;
+    margin-bottom: 21px;
+  }
+
+  &__autor {
+    color: $color-in-dark-background;
+  }
+}

@@ -1,0 +1,102 @@
+@use "./variables.scss" as *;
+// arba vietoj * galima rasyti sugalvota trupini pvz. var
+.first-block-bg-color {
+  background-color: rgba(249, 87, 56, 1);
+}
+.first-block {
+  color: $color-in-dark-background;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Manrope", sans-serif;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  &__logo {
+    margin: 16px auto;
+    width: 56px;
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  &__text-smal {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  &__link {
+    text-decoration: none;
+    color: $color-in-dark-background;
+  }
+
+  &__link:hover {
+    color: $highlighted-text-color;
+    border-bottom: 3px solid $highlighted-text-color;
+  }
+}
+.content {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+
+  &__main-text {
+    font-family: "Sigmar One", sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 102px;
+    width: 1023px;
+    padding: 145px 0 145px 300px;
+    z-index: 1;
+  }
+
+  &__main-text-yellow {
+    color: $highlighted-text-color;
+  }
+
+  &__img {
+    position: relative;
+    left: -145px;
+  }
+}
+/* MEDIA SCREEN */
+@media screen and (max-width: 630px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .burger__line {
+    border: 2px solid $color-in-dark-background;
+    width: 20px;
+  }
+  .header {
+    justify-content: space-between;
+  }
+}
