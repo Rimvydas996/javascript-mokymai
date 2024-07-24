@@ -4,17 +4,19 @@
   background-size: cover;
   background-position: center;
 }
-
-.search img {
-  width: 100vw;
-}
-header {
+.first-part header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  object-fit: contain;
 }
-nav {
+.first-part header .logo {
+  width: 32.96px;
+  height: 32.96px;
+  margin-left: 15px;
+}
+.first-part header nav {
   display: flex;
-  gap: ;
 }
 main {
   height: 100vh;

@@ -224,6 +224,50 @@
   margin: 16px auto 32px;
 }
 
+.blog-card {
+  position: relative;
+  width: 241px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+  overflow: hidden;
+}
+.blog-card__img {
+  width: 241px;
+  height: 181px;
+  margin-bottom: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog-card__full-button {
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  background-color: white;
+  position: absolute;
+  right: 16px;
+  top: 170px;
+}
+.blog-card__full-button:hover {
+  background-color: rgb(244, 211, 94);
+}
+.blog-card__full-button:active {
+  background-color: rgb(202, 13, 19);
+}
+.blog-card__button {
+  padding: 11px;
+}
+.blog-card__description {
+  width: 209px;
+  margin: auto;
+  font-family: "marope", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(18, 18, 18);
+  margin-bottom: 16px;
+}
+
 .about-us-bg-color {
   background-color: rgb(252, 246, 222);
 }
