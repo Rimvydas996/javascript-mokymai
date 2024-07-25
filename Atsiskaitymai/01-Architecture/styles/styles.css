@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div {
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
