@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 h1,
@@ -12,4 +13,59 @@ h6,
 a,
 div {
   font-family: "Inter", sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__company-logo {
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(50, 41, 47);
+  margin: 23.68px auto 24.32px 24px;
+}
+@media (min-width: 577px) {
+  .navigation__company-logo {
+    margin: 24px auto 24px 80px;
+  }
+}
+.navigation__menu-container {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-right: 80px;
+}
+@media (max-width: 576px) {
+  .navigation__menu-container {
+    display: none;
+  }
+}
+.navigation__menu-container__search-icon {
+  margin-right: 10px;
+  width: 24px;
+}
+.navigation__menu-container__search-icon:hover {
+  cursor: pointer;
+}
+.navigation__menu-container__menu {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: rgb(50, 41, 47);
+}
+.navigation__menu-container__menu:hover {
+  transition: 0.2s;
+  font-weight: 600;
+  border-bottom: 2px solid rgb(161, 140, 154);
+}
+.navigation__burger {
+  margin: 24.67px 24px 23.65px auto;
+}
+@media (min-width: 577px) {
+  .navigation__burger {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
