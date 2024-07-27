@@ -1,0 +1,60 @@
+@use "./variables" as *;
+@use "./media-queries" as *;
+
+.first-section {
+  &__bg-grey {
+    @include desktop {
+      display: none;
+    }
+  }
+  @include desktop {
+    grid-template-columns: 1fr 1fr;
+  }
+  &__photo-container {
+    @include desktop {
+      position: relative;
+      grid-column: 2;
+      grid-row: 1;
+      margin: 0;
+    }
+    &__image {
+      @include desktop {
+        position: relative;
+        top: 100px;
+        right: 80px;
+        width: 100%;
+        max-width: 737px;
+        height: 536px;
+        object-fit: cover;
+        object-position: bottom;
+      }
+    }
+  }
+
+  &__img-slider-container {
+    @include desktop {
+      justify-self: end;
+      align-self: end;
+      margin-bottom: 76px;
+      padding-right: 0;
+      grid-column: 2;
+      grid-row: 1;
+    }
+  }
+
+  &__text-container {
+    @include desktop {
+      background-color: $bg-color-secondary;
+      grid-column: 1;
+      grid-row: 1/3;
+      width: 822px;
+      padding: 198px 310px 304px 80px;
+      margin: 0;
+    }
+    &__button {
+      @include desktop {
+        width: auto;
+      }
+    }
+  }
+}
