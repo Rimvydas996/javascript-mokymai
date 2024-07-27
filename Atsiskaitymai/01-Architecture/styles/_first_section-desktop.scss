@@ -2,6 +2,7 @@
 @use "./media-queries" as *;
 
 .first-section {
+  margin-bottom: 67.75px;
   &__bg-grey {
     @include desktop {
       display: none;
@@ -50,11 +51,6 @@
       width: 822px;
       padding: 198px 310px 304px 80px;
       margin: 0;
-    }
-    &__button {
-      @include desktop {
-        width: auto;
-      }
     }
   }
 }
