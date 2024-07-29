@@ -19,7 +19,8 @@
     row-gap: 104px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 0 80px;
+    padding: 0;
+    margin-bottom: 176px;
   }
   &__image {
     max-width: 100%;
@@ -48,7 +49,7 @@
   }
 
   &__text-container {
-    width: 50%;
+    width: 100%;
     max-width: 327px;
     margin-bottom: 72px;
 
