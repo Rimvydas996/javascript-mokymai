@@ -12,7 +12,7 @@
     margin: 23.68px auto 24.32px 24px;
 
     @include desktop {
-      margin: 24px auto 24px 80px;
+      margin: 24px auto 24px 0;
     }
   }
 
@@ -20,7 +20,6 @@
     display: flex;
     align-items: center;
     gap: 48px;
-    margin-right: 80px;
 
     @include mobile {
       display: none;
@@ -41,10 +40,16 @@
       line-height: 20px;
       letter-spacing: 0.05em;
       color: $color-primary;
+      & :last-child {
+        display: none;
+      }
       &:hover {
         transition: 0.2s;
         font-weight: 600;
         border-bottom: 2px solid rgba(161, 140, 154, 1);
+        & :last-child {
+          display: inline-block;
+        }
       }
     }
   }

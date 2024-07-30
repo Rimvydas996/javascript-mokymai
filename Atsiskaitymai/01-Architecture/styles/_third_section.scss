@@ -40,19 +40,6 @@
     margin-bottom: 32px;
   }
 
-  &__bg-left {
-    z-index: -1;
-    position: absolute;
-    top: -54px;
-    background-color: $bg-color-secondary;
-    height: calc(100% + 109px);
-    width: 60%;
-
-    @include desktop {
-      display: none;
-    }
-  }
-
   &__photo-container {
     @include mobile {
       &:nth-child(-n + 4) {
@@ -81,6 +68,20 @@
       font-size: 18px;
       font-weight: 300;
       line-height: 24px;
+    }
+  }
+  &__bg-left {
+    z-index: -1;
+    position: absolute;
+    top: -54px;
+    right: 25vw;
+    width: 80vw;
+    background-color: $bg-color-secondary;
+    height: calc(100% + 109px);
+    // width: 60vw;
+
+    @include desktop {
+      display: none;
     }
   }
 }

@@ -6,20 +6,23 @@
   display: grid;
   grid-template-columns: 1fr 26px;
   grid-template-rows: 1fr auto auto;
+  width: 100%;
+  max-width: 327px;
+  margin: 0 auto 67.75px;
 
   &__bg-grey {
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     background-color: $bg-color-secondary;
     margin: 89.93px 0 0;
     width: 100vw;
     height: calc(100% - 89.93px);
+    justify-self: center;
   }
   &__photo-container {
     position: relative;
     left: -24px;
-    z-index: 2;
-    grid-column: 1;
+    grid-column: span 2;
     grid-row: 1;
     margin-bottom: 18px;
 
@@ -32,7 +35,6 @@
   &__img-slider-container {
     display: flex;
     position: relative;
-    z-index: 2;
     grid-column: 1;
     grid-row: 2;
     margin: 0 0 14px 24px;
@@ -62,7 +64,6 @@
     }
   }
   &__text-container {
-    z-index: 2;
     grid-column: 1;
     grid-row: 3;
     position: relative;
